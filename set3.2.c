@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int n,a[100],num,max=0;
+int n,a[100],num,max;
 clrscr();
 printf("enter test");
 scanf("%d",&n);
@@ -14,7 +14,8 @@ for(i=0;i<num;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<num;i++)
+max=a[0];
+for(i=1;i<num;i++)
 {
 if(a[i]>max)
 {
