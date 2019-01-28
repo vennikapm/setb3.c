@@ -19,7 +19,6 @@ if(a[i]>max)
 max=a[i];
 }
 }
-}
 printf("%d",max);
 }
 else
