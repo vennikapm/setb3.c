@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int n,i,sum=0;
+int n,i,add=0;
 clrscr();
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
-sum=sum+i;
+add=add+i;
 }
-printf("%d",sum);
+printf("%d",add);
 getch();
 }
