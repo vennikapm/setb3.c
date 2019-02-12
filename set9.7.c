@@ -10,7 +10,7 @@ y=b;
 while(y!=0)
 {
 t=y;
-y=y%a;
+y=y%x;
 x=t;
 }
 res=x;
