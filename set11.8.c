@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[100],i,t=1,min;
+scanf("%d",&n);
+scanf("%d",&k);
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+k=(n+1)-k;
+while(t<=k)
+{
+min=a[0];
+for(i=0;i<n;i++)
+{
+if(a[i]>min)
+{
+min=a[i];
+pos=i;
+}
+}
+if(t==k)
+{
+printf("%d",min);
+}
+else
+{
+a[pos]=0;
+}
+t++;
+}
+getch();
+}
